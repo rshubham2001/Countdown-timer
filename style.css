@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(250, 220, 220);
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Clicker Script', cursive;
+    margin: 0;
+}
+ h1{
+ 
+    margin-bottom: 8rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-size: 6.5rem;
+    line-height: 1;
+    font-weight: bold;
+    margin: 0 2rem;
+    margin-bottom: 5rem;
+    height: 170px;
+    background-color: rgba(165, 42, 42, 0.171);
+    padding-top: 37px;
+    width: 185px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.container-el{
+    text-align: center;
+}
+.container-el span{
+    font-size: 3rem;
+    margin: 0 2rem;
+    font-weight: bold;
+}
